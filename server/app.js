@@ -2,7 +2,7 @@ const express=require('express')
 const app=express()
 const mongoose=require('mongoose')
 const  {MONGOURI}=require('./keys.js')
-const PORT=5000
+const PORT=500
 mongoose.connect(MONGOURI,
     {
       useNewUrlParser:true,
